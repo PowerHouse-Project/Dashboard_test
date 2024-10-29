@@ -17,5 +17,9 @@
 }
 
 :root {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #e8e8e8;
 }
