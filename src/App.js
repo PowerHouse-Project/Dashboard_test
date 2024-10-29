@@ -1,15 +1,16 @@
 import "./App.css";
+import Header from "./components/Header";
+
+import "bootstrap-icons/font/bootstrap-icons.css";
+import "remixicon/fonts/remixicon.css";
+
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap.bundle.min";
 
 function App() {
   return (
     <>
-      <h1 className="text-3xl font-bold font-jetBrainsExtraBold text-main-light-blue-light">
-        Hello, World!
-      </h1>
-
-      <h1 className="text-3xl font-bold font-jetBrains text-main-light-blue-dark">
-        Hello, World!
-      </h1>
+      <Header />
     </>
   );
 }
