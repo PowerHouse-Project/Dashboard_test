@@ -1,5 +1,6 @@
 import "../css/header.css";
 import Logo from "./Logo";
+import SearchBar from "./SearchBar";
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
       <Logo />
 
       {/* {search} */}
-      
+      <SearchBar />
     </header>
   );
 };
