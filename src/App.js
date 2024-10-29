@@ -1,5 +1,5 @@
 import "./App.css";
-import Header from "./components/Header";
+import Header from "./components/Header/Header";
 
 import "bootstrap-icons/font/bootstrap-icons.css";
 import "remixicon/fonts/remixicon.css";
