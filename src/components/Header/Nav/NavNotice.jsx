@@ -36,7 +36,7 @@ const NavNotice = () => {
           <hr className="dropdown-divider" />
         </li>
 
-        <li className="dropdown-footer">
+        <li className="dropdown-footer pl-5">
           <a href="#">Show all notifications</a>
         </li>
       </ul>
