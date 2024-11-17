@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar renders correctly 1`] = `
+<DocumentFragment>
+  <aside
+    class="sidebar"
+    id="sidebar"
+  >
+    <ul
+      class="sidebar-nav"
+      id="sidebar-nav"
+    >
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nav-link"
+          href="/"
+        >
+          <i
+            class="bi bi-grid"
+          />
+          <span>
+            Home
+          </span>
+        </a>
+      </li>
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nav-link collapsed"
+          data-bs-target="#components-nav"
+          data-bs-toggle="collapse"
+          href="/"
+        >
+          <i
+            class="bi bi-controller"
+          />
+          <span>
+            Devices
+          </span>
+        </a>
+      </li>
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nav-link collapsed"
+          data-bs-target="#components-nav"
+          data-bs-toggle="collapse"
+          href="/"
+        >
+          <i
+            class="bi bi-alarm"
+          />
+          <span>
+            Automation Schedules
+          </span>
+        </a>
+      </li>
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nav-link collapsed"
+          data-bs-target="#components-nav"
+          data-bs-toggle="collapse"
+          href="/"
+        >
+          <i
+            class="bi bi-bar-chart"
+          />
+          <span>
+            Energy Usage
+          </span>
+        </a>
+      </li>
+      <li
+        class="nav-item"
+      >
+        <a
+          class="nav-link collapsed"
+          data-bs-target="#components-nav"
+          data-bs-toggle="collapse"
+          href="/"
+        >
+          <i
+            class="bi bi-collection"
+          />
+          <span>
+            Rooms
+          </span>
+        </a>
+      </li>
+    </ul>
+  </aside>
+</DocumentFragment>
+`;
