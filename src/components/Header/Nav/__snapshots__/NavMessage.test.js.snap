@@ -1,0 +1,82 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavMessage renders correctly 1`] = `
+<DocumentFragment>
+  <li
+    class="nav-item dropdown"
+  >
+    <a
+      class="nav-link nav-icon"
+      data-bs-toggle="dropdown"
+      href="#"
+    >
+      <i
+        class="bi bi-people"
+      />
+    </a>
+    <ul
+      class="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages"
+    >
+      <li
+        class="dropdown-header"
+      >
+        You have 3 new messages
+        <a
+          href="#"
+        >
+          <span
+            class="badge rounded-pill bg-main-light-blue-neutral p-2 ms-2"
+          >
+            View all
+          </span>
+        </a>
+      </li>
+      <li>
+        <hr
+          class="dropdown-divider"
+        />
+      </li>
+      <li
+        class="message-item pl-5 pr-5 pt-2"
+      >
+        <a
+          href="#"
+        >
+          <img
+            alt="Maria"
+            class="rounded-full w-12 h-12"
+            src="messages-1.jpg"
+          />
+        </a>
+        <div
+          class="flex flex-col flex-wrap"
+        >
+          <h4>
+            Maria Hudson
+          </h4>
+          <p>
+            A family member has been added to your Home
+          </p>
+          <p>
+            30 min. ago
+          </p>
+        </div>
+      </li>
+      <li>
+        <hr
+          class="dropdown-divider"
+        />
+      </li>
+      <li
+        class="dropdown-footer"
+      >
+        <a
+          href="#"
+        >
+          Show all notifications
+        </a>
+      </li>
+    </ul>
+  </li>
+</DocumentFragment>
+`;

@@ -5,8 +5,7 @@ const NavMessage = () => {
   return (
     <li className="nav-item dropdown">
       <a href="#" className="nav-link nav-icon" data-bs-toggle="dropdown">
-        <i className="bi bi-chat-left"></i>
-        <span className="badge bg-main-light-blue-dark badge-number">3</span>
+        <i className="bi bi-people"></i>
       </a>
 
       <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow messages">
