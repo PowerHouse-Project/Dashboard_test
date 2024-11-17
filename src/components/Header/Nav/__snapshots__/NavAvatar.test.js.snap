@@ -1,0 +1,122 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavAvatar renders correctly 1`] = `
+<DocumentFragment>
+  <li
+    class="nav-item dropdown pe-3"
+  >
+    <a
+      class="nav-link nav-profile d-flex items-center pe-0"
+      data-bs-toggle="dropdown"
+      href="#"
+    >
+      <img
+        alt="Profile"
+        class="rounded-full"
+        src="profileImg.jpg"
+      />
+    </a>
+    <ul
+      class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile"
+    >
+      <li
+        class="dropdown-header"
+      >
+        <h4
+          class="font-jetBrains text-main-light-blue-dark"
+        >
+          Aditya
+        </h4>
+        <span>
+          Super User
+        </span>
+      </li>
+      <li>
+        <hr
+          class="dropdown-divider"
+        />
+      </li>
+      <li>
+        <a
+          class="dropdown-item d-flex items-center"
+          href="users-profile.html"
+        >
+          <i
+            class="bi bi-person"
+          />
+          <span
+            class="pl-2"
+          >
+            My Profile
+          </span>
+        </a>
+      </li>
+      <li>
+        <hr
+          class="dropdown-divider"
+        />
+      </li>
+      <li>
+        <a
+          class="dropdown-item d-flex items-center"
+          href="users-profile.html"
+        >
+          <i
+            class="bi bi-gear"
+          />
+          <span
+            class="pl-2"
+          >
+            Account Settings
+          </span>
+        </a>
+      </li>
+      <li>
+        <hr
+          class="dropdown-divider"
+        />
+      </li>
+      <li>
+        <a
+          class="dropdown-item d-flex items-center"
+          href="users-profile.html"
+        >
+          <i
+            class="bi bi-question-circle"
+          />
+          <span
+            class="pl-2"
+          >
+            Tips and Tutorials
+          </span>
+        </a>
+      </li>
+      <li>
+        <hr
+          class="dropdown-divider"
+        />
+      </li>
+      <li>
+        <a
+          class="dropdown-item d-flex items-center"
+          href="users-profile.html"
+        >
+          <i
+            class="bi bi-box-arrow-right"
+          />
+          <span
+            class="pl-2"
+          >
+            Log out
+          </span>
+        </a>
+      </li>
+      <li>
+        <hr
+          class="dropdown-divider"
+        />
+      </li>
+    </ul>
+  </li>
+</DocumentFragment>
+`;
