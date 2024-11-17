@@ -19,8 +19,8 @@ const Sidebar = () => {
             data-bs-target="#components-nav"
             data-bs-toggle="collapse"
           >
-            <i className="bi bi-menu-button-wide"></i>
-            <span>Documents</span>
+            <i className="bi bi-controller"></i>
+            <span>Devices</span>
           </a>
         </li>
 
@@ -28,11 +28,35 @@ const Sidebar = () => {
           <a
             href="/"
             className="nav-link collapsed"
-            data-bs-target="#forms-nav"
+            data-bs-target="#components-nav"
             data-bs-toggle="collapse"
           >
-            <i className="bi bi-journal-text"></i>
-            <span>Forms</span>
+            <i className="bi bi-alarm"></i>
+            <span>Automation Schedules</span>
+          </a>
+        </li>
+
+        <li className="nav-item">
+          <a
+            href="/"
+            className="nav-link collapsed"
+            data-bs-target="#components-nav"
+            data-bs-toggle="collapse"
+          >
+            <i className="bi bi-bar-chart"></i>
+            <span>Energy Usage</span>
+          </a>
+        </li>
+
+        <li className="nav-item">
+          <a
+            href="/"
+            className="nav-link collapsed"
+            data-bs-target="#components-nav"
+            data-bs-toggle="collapse"
+          >
+            <i className="bi bi-collection"></i>
+            <span>Rooms</span>
           </a>
         </li>
       </ul>
