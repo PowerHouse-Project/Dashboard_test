@@ -14,7 +14,7 @@ const Cards = ({ card }) => {
       <div className="card info-card sales-card">
         <CardFilter filterChange={handleFilterChange} />
         <div className="card-body">
-          <h5 className="card-title text-sm">
+          <h5 className="card-title text-sm font-jetBrains">
             {card.name} <span>| {filter}</span>
           </h5>
 
@@ -22,8 +22,14 @@ const Cards = ({ card }) => {
             <div className="card-icon rounded-circle d-flex items-center justify-content-center">
               <i className={card.icon}></i>
             </div>
-            <div className="ps-3">
-              <h6>{card.name}</h6>
+            <div className="ps-3 font-jetBrains">
+              <h6>
+                {card.name === "Electricity"
+                  ? card.usage + " KwH"
+                  : card.usage | (card.name === "Water")  
+                  ? card.usage + " Gallons"
+                  : card.usage}
+              </h6>
               <span
                 className={`${
                   card.percentage > 0 ? "text-success" : "text-danger"

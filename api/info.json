@@ -4,22 +4,15 @@
       "_id": 1,
       "name": "Electricity",
       "icon": "bi bi-lightning",
-      "usage": 1000,
+      "usage": 1758,
       "percentage": 0.83
     },
     {
       "_id": 2,
       "name": "Water",
       "icon": "bi bi-droplet",
-      "usage": 500,
+      "usage": 51,
       "percentage": 0.42
-    },
-    {
-      "_id": 3,
-      "name": "Gas",
-      "icon": "bi bi-thermometer-half",
-      "usage": 300,
-      "percentage": 0.25
     }
   ],
   "devices": [
