@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import "../../css/dashboard.css";
+import Cards from "../Components/Cards";
 
 const Dashboard = () => {
   const [devices, setDevices] = useState([]);
@@ -21,7 +22,11 @@ const Dashboard = () => {
     <section className="dashboard section">
       <div className="row">
         <div className="col-lg-8">
-          <div className="row"></div>
+          <div className="row">
+            {devices &&
+              devices.length > 0 &&
+              devices.map((card) => <Cards key={card._id} card={card} />)}
+          </div>
         </div>
         <div className="col-lg-4"></div>
       </div>
