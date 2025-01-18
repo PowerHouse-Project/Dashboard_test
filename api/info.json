@@ -1,88 +1,111 @@
 {
-    "devices": [
-        {
-            "_id": 1,
-            "device": "Philips Hue",
-            "icon": "bi bi-lightbulb",
-            "power-usage": 145,
-            "percentage": 0.12,
-            "active": true
-        },
-        {
-            "_id": 2,
-            "device": "Samsung Washing Machine",
-            "icon": "bi bi-washer",
-            "power-usage": 200,
-            "percentage": 0.17,
-            "active": true
-        }, 
-        {
-            "_id": 3,
-            "device": "Samsung Fridge",
-            "icon": "bi bi-fridge",
-            "power-usage": 150,
-            "percentage": 0.13,
-            "active": true
-        }, 
-        {
-            "_id": 4,
-            "device": "Samsung TV",
-            "icon": "bi bi-tv",
-            "power-usage": 100,
-            "percentage": 0.08,
-            "active": true
-        }, 
-        {
-            "_id": 5,
-            "device": "Samsung Air Conditioner",
-            "icon": "bi bi-air-conditioner",
-            "power-usage": 300,
-            "percentage": 0.25,
-            "active": true
-        }
-    ],
-    "updates": [
-        {
-            "_id": 1,
-            "name": "Philips Hue",
-            "title": "New Device Added",
-            "description": "Philips Hue has been added to the list of devices."
-        }, 
-        {
-            "_id": 2,
-            "name": "Samsung Washing Machine",
-            "title": "New Device Added",
-            "description": "Samsung Washing Machine has been added to the list of devices."
-        }, 
-        {
-            "_id": 3,
-            "name": "Samsung Fridge",
-            "title": "New Device Added",
-            "description": "Samsung Fridge has been added to the list of devices."
-        }, 
-        {
-            "_id": 4,
-            "name": "Samsung TV",
-            "title": "New Device Added",
-            "description": "Samsung TV has been added to the list of devices."
-        }, 
-        {
-            "_id": 5,
-            "name": "Samsung Air Conditioner",
-            "title": "New Device Added",
-            "description": "Samsung Air Conditioner has been added to the list of devices."
-        }
-    ], 
-    "users": [
-        {
-            "_id": 1,
-            "name": "John Doe",
-            "email": "jondoe@gmail.com"
-        },
-        {
-            "_id": 2,
-            "name": "Jane Doe",
-            "email": "janedoe@gmail.com"
-        }
-    ]
+  "resources": [
+    {
+      "_id": 1,
+      "name": "Electricity",
+      "icon": "bi bi-lightning",
+      "usage": 1000,
+      "percentage": 0.83
+    },
+    {
+      "_id": 2,
+      "name": "Water",
+      "icon": "bi bi-droplet",
+      "usage": 500,
+      "percentage": 0.42
+    },
+    {
+      "_id": 3,
+      "name": "Gas",
+      "icon": "bi bi-thermometer-half",
+      "usage": 300,
+      "percentage": 0.25
+    }
+  ],
+  "devices": [
+    {
+      "_id": 1,
+      "device": "Philips Hue",
+      "icon": "bi bi-lightbulb",
+      "power-usage": 145,
+      "percentage": 0.12,
+      "active": true
+    },
+    {
+      "_id": 2,
+      "device": "Dryer",
+      "icon": "bi bi-bucket",
+      "power-usage": 200,
+      "percentage": 0.17,
+      "active": true
+    },
+    {
+      "_id": 3,
+      "device": "Fridge",
+      "icon": "bi bi-thermometer-snow",
+      "power-usage": 150,
+      "percentage": 0.13,
+      "active": true
+    },
+    {
+      "_id": 4,
+      "device": "Samsung TV",
+      "icon": "bi bi-tv",
+      "power-usage": 100,
+      "percentage": 0.08,
+      "active": true
+    },
+    {
+      "_id": 5,
+      "device": "Air Conditioner",
+      "icon": "bi bi-fan",
+      "power-usage": 300,
+      "percentage": 0.25,
+      "active": true
+    }
+  ],
+  "updates": [
+    {
+      "_id": 1,
+      "name": "Philips Hue",
+      "title": "New Device Added",
+      "description": "Philips Hue has been added to the list of devices."
+    },
+    {
+      "_id": 2,
+      "name": "Samsung Washing Machine",
+      "title": "New Device Added",
+      "description": "Samsung Washing Machine has been added to the list of devices."
+    },
+    {
+      "_id": 3,
+      "name": "Samsung Fridge",
+      "title": "New Device Added",
+      "description": "Samsung Fridge has been added to the list of devices."
+    },
+    {
+      "_id": 4,
+      "name": "Samsung TV",
+      "title": "New Device Added",
+      "description": "Samsung TV has been added to the list of devices."
+    },
+    {
+      "_id": 5,
+      "name": "Samsung Air Conditioner",
+      "title": "New Device Added",
+      "description": "Samsung Air Conditioner has been added to the list of devices."
+    }
+  ],
+  "users": [
+    {
+      "_id": 1,
+      "name": "John Doe",
+      "email": "jondoe@gmail.com"
+    },
+    {
+      "_id": 2,
+      "name": "Jane Doe",
+      "email": "janedoe@gmail.com"
+    }
+  ]
 }

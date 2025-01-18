@@ -2,7 +2,7 @@
 const CardFilter = ({ filterChange }) => {
   return (
     <div className="filter">
-      <a href="#" className="icon" data-bs-toggle="dropdown">
+      <a href="#" className="icon pl-3" data-bs-toggle="dropdown">
         <i className="bi bi-three-dots"></i>
       </a>
       <ul className="dropdown-menu dropdown-menu-end dropdown-menu-arrow">
