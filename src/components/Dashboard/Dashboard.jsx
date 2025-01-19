@@ -7,7 +7,7 @@ const Dashboard = () => {
   const [resources, setResources] = useState([]);
 
   const fetchResources = () => {
-    fetch("http://localhost:4000/resources")
+    fetch("http://localhost:8000/resources")
       .then((res) => res.json())
       .then((data) => {
         setResources(data);
@@ -16,7 +16,7 @@ const Dashboard = () => {
   };
 
   const fetchDevices = () => {
-    fetch("http://localhost:4000/devices")
+    fetch("http://localhost:8000/devices")
       .then((res) => res.json())
       .then((data) => {
         setDevices(data);
