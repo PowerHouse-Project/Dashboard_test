@@ -27,7 +27,7 @@ const Cards = ({ card }) => {
                 {card.name === "Electricity"
                   ? card.usage + " KwH"
                   : card.usage | (card.name === "Water")  
-                  ? card.usage + " Gallons"
+                  ? card.usage + " Litres"
                   : card.usage}
               </h6>
               <span
